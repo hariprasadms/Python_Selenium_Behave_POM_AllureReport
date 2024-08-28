@@ -1,0 +1,7 @@
+# Selenium web driver
+selenium==4.23.1 # For web automation
+behave==1.2.6 # For BDD
+allure-behave==2.9.45
+webdriver-manager==4.0.0
+pytest==7.4.2
+PyHamcrest==2.1.0 # For improved asserts
