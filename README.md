@@ -56,3 +56,11 @@ After installing, generate the report by running below.
 To serve the report through a web link run below.
 
 `allure serve features/reports`
+
+### Sample Test Run Report
+
+Below is the test suite report generated after running all the tests. This was a simple run for demonstration purposes.
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
