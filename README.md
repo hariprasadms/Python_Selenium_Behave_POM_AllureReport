@@ -3,7 +3,7 @@ A Selenium automation framework built in Python using the BDD (Behavior-Driven D
 
 This framework is built at a medium to high level to demonstrate the capabilities of an automation framework that can be developed using Python, incorporating Cucumber for BDD and the Page Object Model design pattern. It includes comprehensive test execution reporting, which can be shared with stakeholders to provide clear visibility into the test results and overall execution status.
 
-objects, step definitions, and an environment file. This structure provides a solid foundation but can be expanded with additional detail and complexity when applied to a real-world project.
+The framework's folder structure primarily consists of a main folder with a Features directory inside, which includes feature files, pages, step definitions, and an environment file. However, it can be expanded to a more detailed structure when used in a real project.
 
 ## Web Automation Project
 
