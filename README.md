@@ -53,7 +53,9 @@ After installing, generate the report by running below.
 
 `behave -f allure_behave.formatter:AllureFormatter -o features/reports`
 
-To serve the report through a web link run below.
+To serve the report through a web link, run the command below. 
+[ Note: Make sure to install Allure before running the command.
+`brew install allure`]
 
 `allure serve features/reports`
 
