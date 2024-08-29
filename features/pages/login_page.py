@@ -2,6 +2,10 @@ from selenium.webdriver.common.by import By
 from features.pages.base_page import BasePage
 
 class LoginPage(BasePage):
+
+    def __init__(self, driver):
+        super().__init__(driver)
+
     LOGIN_INPUT = (By.XPATH, '//input[@id="txt-username"]')
     PASSWORD_INPUT = (By.XPATH, '//input[@id="txt-password"]')
     SUBMIT_BUTTON = (By.XPATH, '//button[@id="btn-login"]')

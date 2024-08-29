@@ -6,7 +6,7 @@ from features.pages.login_page import LoginPage
 @given('I am on the login page "{url}"')
 @allure.step("User navigates to login page {url}")
 def step_given_on_login_page(context, url):
-    context.driver = webdriver.Chrome()
+    # context.driver = webdriver.Chrome()
     context.driver.get(url)
     context.login_page = LoginPage(context.driver)
 

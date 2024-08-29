@@ -16,7 +16,6 @@ class AppointmentPage(BasePage):
     COMMENT = (By.XPATH, '//textarea[@id="txt_comment"]')
     BOOK_APPOINTMENT = (By.ID, 'btn-book-appointment')
 
-
     def click_appointment_button(self):
         appointment_button = self.find_element(self.APPOINTMENT_BUTTON)
         appointment_button.click()
