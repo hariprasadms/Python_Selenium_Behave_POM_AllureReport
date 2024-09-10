@@ -66,3 +66,11 @@ Below is the test suite report generated after running all the tests. This was a
 ![img.png](img.png)
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
+
+### Running on Browserstack 
+
+1. Install browserstack sdk  `pip install browserstack-sdk`
+2. To run automated tests using BrowserStack, we must provide a valid username and access key. This can be done adding browserstack userName and accesKey in the browserstack.yml file.
+3. To run tests, run browserstack-sdk behave
+
+![img_3.png](img_3.png)
