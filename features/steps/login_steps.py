@@ -1,6 +1,5 @@
 import allure
 from behave import given, when, then, use_step_matcher
-from selenium import webdriver
 from features.pages.login_page import LoginPage
 
 @given('I am on the login page "{url}"')

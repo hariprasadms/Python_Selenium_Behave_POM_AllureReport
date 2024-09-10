@@ -63,9 +63,9 @@ To serve the report through a web link, run the command below.
 
 Below is the test suite report generated after running all the tests. This was a simple run for demonstration purposes.
 
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+![img.png](allure_report_img_2.png)
+![img_1.png](allure_report_img_1.png)
+![img_2.png](allure_report_img_3.png)
 
 ### Running on Browserstack 
 
@@ -73,4 +73,4 @@ Below is the test suite report generated after running all the tests. This was a
 2. To run automated tests using BrowserStack, we must provide a valid username and access key. This can be done adding browserstack userName and accesKey in the browserstack.yml file.
 3. To run tests, run browserstack-sdk behave
 
-![img_3.png](img_3.png)
+![img_3.png](browserstack_img_1.png)
